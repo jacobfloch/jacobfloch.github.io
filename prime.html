@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prime Number Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400&family=Montserrat&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 id="test">Prime Number Generator</h1>
+
+    <div class="center">
+        <input class="num" type="number" name="min" id="minimum" required placeholder="Min">
+        <label for="min">Enter a minimum (must be greater than 0)</label>
+        <br>
+        <br>
+        <input class="num" type="number" name="max" id="maximum" required placeholder="Max">
+        <label for="max">Enter a maximum (must be greater than minimum and less than 1000</label>
+        <br>
+        <p id="error">Please enter numbers within the required ranges</p>
+        <br>
+        <input type="button" id='testbutton' value="Print Primes">
+    </div>
+    
+    <br>
+    
+
+    <table>
+      <tbody id="tablebody">
+      
+      </tbody>
+    </table>
+
+    
+
+    <script src="./prime.js"></script>
+  </body>
+
+  </html>
